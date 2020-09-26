@@ -29,7 +29,6 @@ class Song
         @@artists << name
       end
     end
-      @@artists
   end
   
   def self.genres
