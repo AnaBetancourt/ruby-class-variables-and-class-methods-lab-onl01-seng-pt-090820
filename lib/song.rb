@@ -23,12 +23,13 @@ class Song
   
   def self.artists
     @@artists = []
-    @@artists.each.do |name|
+    @@artists.each do |name|
       if @@artists = [name]
         #do nothing
       else
         @@artists << name
       end
+      @@artists
     end
   
   def self.genres
