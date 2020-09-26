@@ -23,7 +23,7 @@ class Song
   
   def self.artists
     @@artists.map do |name|
-      if @@artists = [name]
+      if @@artists.include?(name)
         #do nothing
       else
         @@artists << name
