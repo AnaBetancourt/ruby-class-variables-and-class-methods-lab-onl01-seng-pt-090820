@@ -29,8 +29,9 @@ class Song
       else
         @@artists << name
       end
-      @@artists
     end
+      @@artists
+  end
   
   def self.genres
     # if #already has genre in array
