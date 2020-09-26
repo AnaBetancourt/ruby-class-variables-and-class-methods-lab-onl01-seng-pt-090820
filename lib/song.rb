@@ -22,14 +22,7 @@ class Song
   end
   
   def self.artists
-    @@artists.map do |name|
-      if @@artists.include?(name)
-        #do nothing
-      else
-        @@artists << name
-      end
-    end
-    @@artists
+    @@artists.uniq
   end
   
   def self.genres
