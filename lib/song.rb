@@ -26,11 +26,7 @@ class Song
   end
   
   def self.genres
-    # if #already has genre in array
-    #   #do nothing
-    # else 
-    #   #add name to array
-    # end
+    @@genres.uniq
   end 
   
   def self.genre_count
