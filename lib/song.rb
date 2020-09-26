@@ -22,7 +22,6 @@ class Song
   end
   
   def self.artists
-    binding.pry
     @@artists.each.do |name|
       if @@artists = [name]
         #do nothing
